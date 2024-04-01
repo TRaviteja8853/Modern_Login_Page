@@ -31,7 +31,7 @@ body{
 .container p{
     font-size: 14px;
     line-height: 20px;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.8px;
     margin: 20px 0;
 }
 
@@ -40,15 +40,15 @@ body{
 }
 
 .container a{
-    color: #333;
+    color: #3d3d3d;
     font-size: 13px;
     text-decoration: none;
     margin: 15px 0 10px;
 }
 
 .container button{
-    background-color: #512da8;
-    color: #fff;
+    background-color: #00FFF9;
+    color: #000000;
     font-size: 12px;
     padding: 10px 45px;
     border: 1px solid transparent;
@@ -62,7 +62,7 @@ body{
 
 .container button.hidden{
     background-color: transparent;
-    border-color: #fff;
+    border-color: #000000;
 }
 
 .container form{
@@ -90,7 +90,7 @@ body{
     position: absolute;
     top: 0;
     height: 100%;
-    transition: all 0.3s ease-in-out ;
+    transition: all 0.8s ease-in-out ;
 }
 
 .sign-in{
@@ -114,7 +114,7 @@ body{
     transform: translateX(100%);
     opacity: 1;
     z-index: 5;
-    animation: move 0.3s;
+    animation: move 0.8s;
 }
 
 @keyframes move{
@@ -133,7 +133,7 @@ body{
 }
 
 .social-icons a{
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 20%;
     display: inline-flex;
     justify-content: center;
@@ -150,7 +150,7 @@ body{
     width: 50%;
     height: 100%;
     overflow: hidden;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.8s ease-in-out;
     border-radius: 150px 0 0 100px;
     z-index: 1000;
 }
@@ -161,16 +161,16 @@ body{
 }
 
 .toggle{
-    background-color: #512da8;
+    background-color: #00FFF9;
     height: 100%;
-    background: linear-gradient(to right, #5c6bc0, #512da8);
-    color: #fff;
+    background: linear-gradient(to right, #ADFFFD, #00FFF9);
+    color: #000000;
     position: relative;
     left: -100%;
     height: 100%;
     width: 200%;
     transform: translateX(0);
-    transition: all 0.3s ease-in-out
+    transition: all 0.8s ease-in-out
 }
 
 .container.active .toggle{
@@ -189,7 +189,7 @@ body{
     text-align: center;
     top: 0;
     transform: translateX(0);
-    transition: all 0.3s ease-in-out
+    transition: all 0.8s ease-in-out
 }
 
 .toggle-left{
